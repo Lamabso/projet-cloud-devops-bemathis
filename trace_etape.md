@@ -50,3 +50,16 @@
 - Docker Desktop
 - docker version:
 
+# Trace - Étape 5 (CI GitHub Actions sans AKS)
+
+## Objectif
+- Lint + tests + build docker + push GHCR à chaque push sur main
+- Pas de déploiement AKS à cette étape
+
+## Points clés
+- Authent GHCR via GITHUB_TOKEN (pas de secret à créer)
+- Tags image: latest + sha
+
+## Résultats attendus
+- Workflow vert sur GitHub
+- Image visible dans GHCR (Packages)
