@@ -1,0 +1,7 @@
+items:
+  - id: 1
+    title: "Lancement de la plateforme"
+    date: "2026-02-04"
+  - id: 2
+    title: "Amélioration du cache TTL"
+    date: "2026-02-05"

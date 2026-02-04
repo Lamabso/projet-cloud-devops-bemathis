@@ -1,0 +1,6 @@
+{
+  "items": [
+    { "q": "À quoi sert cette API ?", "a": "À diffuser des contenus statiques via REST." },
+    { "q": "Pourquoi un cache TTL ?", "a": "Pour limiter les lectures et améliorer la latence." }
+  ]
+}

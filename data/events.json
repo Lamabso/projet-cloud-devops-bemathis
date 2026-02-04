@@ -1,0 +1,6 @@
+{
+  "items": [
+    { "id": 1, "title": "Conférence Cloud", "date": "2026-02-10", "location": "Paris" },
+    { "id": 2, "title": "Meetup DevOps", "date": "2026-02-20", "location": "Lyon" }
+  ]
+}

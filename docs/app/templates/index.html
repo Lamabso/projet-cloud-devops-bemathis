@@ -7,7 +7,30 @@
   </head>
   <body>
     <h1>Projet Cloud & DevOps — Benjamin E & Mathis A</h1>
-    <p>Interface minimale (placeholder).</p>
+
+    <h2>Events</h2>
+    <ul>
+      {% for e in events %}
+        <li>{{ e.title }} — {{ e.date }} — {{ e.location }}</li>
+      {% endfor %}
+    </ul>
+
+    <h2>News</h2>
+    <ul>
+      {% for n in news %}
+        <li>{{ n.title }} — {{ n.date }}</li>
+      {% endfor %}
+    </ul>
+
+    <h2>FAQ</h2>
+    <ul>
+      {% for f in faq %}
+        <li><strong>{{ f.q }}</strong> — {{ f.a }}</li>
+      {% endfor %}
+    </ul>
+
+    <hr />
+    <p>Endpoints :</p>
     <ul>
       <li><a href="/api/events">/api/events</a></li>
       <li><a href="/api/news">/api/news</a></li>
