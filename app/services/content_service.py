@@ -1,4 +1,4 @@
-from typing import Any, Dict, Tuple
+from typing import Any, Dict
 
 from app.services.blob_client import LocalContentClient
 from app.services.cache import MemoryTTLCache
